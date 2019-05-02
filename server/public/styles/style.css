@@ -1,3 +1,14 @@
 h1 {
     color: blue;
 }
+
+.restaurant {
+    background-color: lightcoral;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.visited {
+    background-color: rgb(236, 252, 236);
+}

@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 
 app.use(express.static('server/public'));
 
+// '/restaurants/delete/6'
 app.use('/restaurants', restaurantRouter);
 
 app.listen(PORT, () => {
